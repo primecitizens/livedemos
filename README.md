@@ -4,5 +4,5 @@ Demos built from [pcz examples](https://github.com/primecitizens/pcz/tree/master
 
 ## TOC
 
-- [Native Web Application](./10-plat-web/index.html)
+- [Native Web Application](https://primecitizens.github.io/livedemos/10-plat-web/)
 
