@@ -8,14 +8,14 @@ Copyright 2023 The Prime Citizens
   <head>
     <meta charset="utf-8" />
     <title>Example WebAssembly Native Web Application</title>
-    <script src="https://primecitizens.github.io/livedemos/10-plat-web/bindings.min.js"></script>
+    <script src="/livedemos/11-plat-web/bindings.min.js"></script>
   </head>
 
   <body>
     <script>
       const app = new globalThis.bindings.Application();
       let mod, inst;
-      app.loadStream(fetch("/livedemos/10-plat-web/app.wasm")).then((res) => {
+      app.init(fetch("/livedemos/11-plat-web/app.wasm")).then((res) => {
         mod = res.module;
         inst = res.instance;
         run();

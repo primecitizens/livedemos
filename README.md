@@ -2,7 +2,7 @@
 
 Demos built from [pcz examples](https://github.com/primecitizens/pcz/tree/master/examples)
 
-## TOC
+## ToC
 
-- [Native Web Application](https://primecitizens.github.io/livedemos/10-plat-web/)
+- [Native Web Application](https://primecitizens.github.io/livedemos/11-plat-web/)
 
